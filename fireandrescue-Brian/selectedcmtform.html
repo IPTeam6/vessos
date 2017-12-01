@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1 ,maximum-scale=1">
+<meta name="Author" content="DSA Magnigicent 6">
+<meta name="Description" content="VESCall">
+<meta name="Keywords" content="VES Mobilisation App">     
+<title>Home Page</title>
+
+
+<link rel="stylesheet" href="css/Navigation-Clean1.css">
+<link rel="stylesheet" href="css/Footer-Clean.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    
+<style type="text/css">
+    @media screen and (min-width: 1200px) {
+        body {
+            max-width: 1170px;
+        }
+    }
+</style>
+   
+    <!-- Loading third party fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bevan">
+    <link rel="stylesheet" href="fonts/ionicons.min.css">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">   
+    
+  
+      <!-- Loading main css file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+</head>
+    <a name="top"></a>
+<body>
+<!-- Start of Nav -->
+     <div>
+        <nav class="navbar navbar-default navigation-clean" style="background-color:#990000;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation"><a href="index.html" style="color:#ffffff;">Home </a></li>
+                        <li role="presentation"><a href="allcmt.html" style="color:#ffffff;">Send to ALL </a></li>
+                        <li role="presentation"><a href="selectedcmt.html" style="color:#ffffff;">Send to SELECTED </a></li>
+                        <li role="presentation"><a href="contact.html" style="color:#ffffff;">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+<!-- End of Nav -->
+    
+  <form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>SEND ONLY TO SELECTED CMT AGENCIES</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Your Name">Your Name</label>  
+  <div class="col-md-4">
+  <input id="Your Name" name="Your Name" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Rank">Your Rank</label>  
+  <div class="col-md-4">
+  <input id="Rank" name="Rank" type="text" placeholder="" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="VESCall Message">VESCall Message</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="VESCall Message" name="VESCall Message">E.G. Enter Incident type, Location, and how many people you need here.</textarea>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="What to bring">What to bring</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="What to bring-0">
+      <input type="checkbox" name="What to bring" id="What to bring-0" value="1">
+      Oxygen Bottles
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="What to bring-1">
+      <input type="checkbox" name="What to bring" id="What to bring-1" value="2">
+      Bandages / First Aid
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="What to bring-2">
+      <input type="checkbox" name="What to bring" id="What to bring-2" value="3">
+      Stretchers
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="What to bring-3">
+      <input type="checkbox" name="What to bring" id="What to bring-3" value="4">
+      Climbing Equipment
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="What to bring-4">
+      <input type="checkbox" name="What to bring" id="What to bring-4" value="5">
+      Blankets
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="What to bring-5">
+      <input type="checkbox" name="What to bring" id="What to bring-5" value="6">
+      Sand Bags
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="What to bring-6">
+      <input type="checkbox" name="What to bring" id="What to bring-6" value="7">
+      Shovels
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="What to bring-7">
+      <input type="checkbox" name="What to bring" id="What to bring-7" value="8">
+      Torches
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Special Equipment">Special Equipment</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="Special Equipment" name="Special Equipment">Type other equipment needed here.</textarea>
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Submit">Send VESCall</label>
+  <div class="col-md-8">
+    <button id="Submit" name="Submit" class="btn btn-success">Submit</button>
+    <button id="Cancel" name="Cancel" class="btn btn-danger">Cancel</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+        
+            <!-- end of main-content -->
+            
+            <!--footer-->
+
+  <div class="footer-clean" style="background-color:#339933;">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    
+                </div>
+            </div>
+            </footer>
+    </div>
+                 <!--end of footer-->
+  
+       
+<script src="//code.jquery.com/jquery.js"></script>
+<script        src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS & JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+ 
+</body>
+
+</html>

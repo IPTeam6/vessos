@@ -1,0 +1,165 @@
+/*custom css*/
+
+body{
+	background-color: #f6f6f6
+}
+header{
+	height: 200px;
+	margin: 0 0 20px 0;
+	padding: 30px;
+	
+}
+
+header h1{
+	color: #9a9292;
+	text-align: center;
+	font-size: 500%;
+}
+
+.box{
+	background: #fcfcfc;
+	padding: 10px;
+	margin: 0 0 20px;
+	height: 250px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #dbdbdb;
+}
+.box p{
+	font-size: 70%;
+}
+
+.box .glyphicon{
+	font-size: 4em;
+	color: #05a3cf;
+}
+
+.box:hover {
+	background: #ecede1;
+}
+.fleet 
+   {padding:40px 15px;
+       min-width:60%
+        margin: 0 auto;}
+       text-align:center;
+    min-width: 100%;} 
+}
+
+.img-responsive {
+    width: 75%;
+	height:30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-wrapper {
+    display: block;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: greenyellow;
+    
+}
+
+.cta-button:hover {
+   background-color:  green;
+}
+
+.phone {
+    margin-right: -55px;
+    height: 30%;
+    width: 50%;
+    
+}
+
+.blurb {
+    margin-right: 15px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.phone {
+    margin-right: 0px;
+    height: auto;
+    width: 100%;
+     ;
+}
+
+.container {
+  padding-bottom: 15px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.container {
+  margin-top: 5px;  
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  *zoom: 1; }
+}
+
+
+
+ .video {
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    width: 94%;
+   margin-bottom: 15x;
+}
+
+.nav {
+    
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: #3366cc;
+  color: white;  
+}
+
+
+
+
+.navbar {
+    color: white;
+}
+
+.navbar {
+    
+    display: none;
+    background-color: blue;
+      color: white;
+  
+}
+
+.img-fluid-center-block {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.arrow-list {
+    
+}
+
+.cta-button {
+ position: center-block;
+}
